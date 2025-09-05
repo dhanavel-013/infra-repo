@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: xops-app
-          image: docker.io/dhanavel10/xops-app:20250905-0509-d25307b
+          image: docker.io/dhanavel10/xops-app:20250905-0516-7ef70fa
           ports:
             - containerPort: 80
           readinessProbe:
