@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: xops-app
-          image: docker.io/REPLACE_ME/xops-app:latest   # CI will replace this tag
+          image: docker.io/dhanavel10/xops-app:20250905-0509-d25307b
           ports:
             - containerPort: 80
           readinessProbe:
